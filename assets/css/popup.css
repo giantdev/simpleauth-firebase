@@ -1,0 +1,12 @@
+.form-wrapper {
+	padding: 20px;
+	min-width: 450px;
+}
+
+#data-wrapper {
+	display: none;
+}
+
+#data-wrapper textarea {
+	width: 100%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auth Popup</title>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/firebase-app.js"></script>
+	<script src="../js/firebase-auth.js"></script>
+	<script src="../js/firebase-storage.js"></script>
+	<script src="../js/firebase-firestore.js"></script>
+	<script src="../js/firebase_init.js"></script>
+	<script src="../js/popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup.css">
+</head>
+<body>
+	<div class="form-wrapper">
+		<div class="container">
+			<div class="row">
+				<h2 class="text-center" id="title">Please login first</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12" id="authentication-form">
+					<div class="form-group">
+						<label>Email: </label>
+						<input type="email" name="email" id="email" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Password: </label>
+						<input type="password" name="password" id="password" class="form-control">
+					</div>
+				</div>
+				<div class="col-md-12" id="data-wrapper">
+					<textarea rows="5"></textarea>
+				</div>
+				<div class="col-md-12">
+					<div class="form-group text-center" id="btn-wrapper">
+						<input type="button" id="sign-in" class="btn btn-primary" value="Login">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

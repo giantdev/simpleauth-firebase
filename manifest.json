@@ -1,0 +1,29 @@
+{
+    "background": {
+      "page": "assets/html/background.html"
+    },
+    "browser_action": {
+      "default_icon": {
+        "19": "assets/img/logo-19.png",
+        "38": "assets/img/logo-38.png"
+      },
+      "default_title": "Firebase",
+      "default_popup": "assets/html/popup.html"
+    },
+    "description": "Firebase",
+    "icons": {
+      "128": "assets/img/logo-128.png",
+      "16": "assets/img/logo-16.png",
+      "48": "assets/img/logo-48.png",
+      "64": "assets/img/logo-64.png"
+    },
+    "manifest_version": 2,
+    "name": "Firebase auth",
+    "options_page": "assets/html/options.html",
+    "permissions": [ 
+      "tabs", 
+      "storage" 
+    ],
+    "version": "0.0.1",
+    "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+}
